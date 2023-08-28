@@ -1,0 +1,78 @@
+/* Center the app content vertically and horizontally */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f7a9;
+  }
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: #aae786; 
+    border: 1px solid #000000;
+    border-radius: 5px;
+    width: 700px;
+    overflow: hidden;
+  }
+  
+  .todo-group-box {
+    border: 1px solid #000000;
+    padding: 10px;
+    margin: 10px;
+    background-color: #b0dff5; 
+    width: 500px; 
+    border-radius: 5px;
+    height: 300px;
+    overflow-y: auto;
+  }
+
+  .blue-button {
+    background-color: #007bff; 
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .list-box {
+    background-color: #b0dff5; 
+    border: 1px solid #000000;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 450px;
+  }
+
+  .list-box-todo {
+    background-color: #ffffff; 
+    border: 1px solid #000000;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 430px;
+  }
+
+  .todo-box {
+    border: 1px solid #000000;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ffe0e0;
+    width: 450px;
+    border-radius: 5px;
+  }
+
+  
