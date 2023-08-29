@@ -4,11 +4,11 @@ import TodoList from './components/TodoList';
 import './style.css';
 
 const App = () => {
-  const [todoLists, setTodoGroups] = useState([]);
+  const [todoLists, setTodoLists] = useState([]);
 
   const handleAddList = (listName) => {
-    const newList = { name: listName, items: [], };
-    setTodoGroups([...todoLists, newList]);
+    const newList = { name: listName, items: [] };
+    setTodoLists([...todoLists, newList]);
   };
 
   return (
