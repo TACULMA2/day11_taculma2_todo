@@ -14,7 +14,7 @@ const TodoGenerator = ({ onAddList }) => {
   return (
     <div className='list-box'>
       <div>
-      <input className='list-box-todo' type="text" value={listName} onChange={(e) => setListName(e.target.value)} placeholder="Add Todo . . ." />
+      <input className='list-box-todo' type="text" value={listName} onChange={(event) => setListName(event.target.value)} placeholder="Add Todo . . ." />
       <button className= 'blue-button' onClick={handleAddList}>Add</button>
       </div>
     </div>

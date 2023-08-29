@@ -7,7 +7,7 @@ const App = () => {
   const [todoLists, setTodoLists] = useState([]);
 
   const handleAddList = (listName) => {
-    const newList = { name: listName, items: [] };
+    const newList = { id: "", name: listName, items: [] };
     setTodoLists([...todoLists, newList]);
   };
 
